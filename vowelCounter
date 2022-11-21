@@ -1,0 +1,6 @@
+//https://www.codecademy.com/resources/blog/10-javascript-code-challenges-for-beginners/
+//number 10
+
+const word = prompt("Enter a word to count its vowels:");
+const count = word.match(/[aeiou]/gi).length;
+console.log("There are",count, "vowels in",word)
